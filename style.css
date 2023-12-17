@@ -1,0 +1,93 @@
+/**********  **********/
+/********** normalize style for different browsers **********/
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul a {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  * {
+    background-color: #0B2045;
+  }
+
+  /********** End Normalize section **********/
+
+  /********** center webcontent **********/
+
+  #container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+/********* header *********/
+
+.headerbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    position: relative; 
+    display: inline-block;
+}
+
+.header img {
+}
+
+.header h1 {
+    position: absolute;
+    top: 40%;
+    padding-left: 5rem;
+    background-color: transparent;
+    font-family: 'Tangerine', cursive;
+    font-size: 800%;
+}
+
+/********** navbar **********/
+
+#navsection {
+    background-color: #0B2045;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 5rem;
+    background-color: #0B2045;
+}
+.nav img {
+    max-height: 5rem;
+    background-color: #0B2045;
+}
+
+.nav a {
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
+/********** content **********/
+
+#content {
+    margin: 0 5rem;
+}
+
