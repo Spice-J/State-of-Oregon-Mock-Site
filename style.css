@@ -99,24 +99,48 @@ html {
     margin: 0 5rem;
 }
 
-.contentflex1 {
+.contentflex {
     display: flex;
     gap: 2rem;
-    margin: 1rem;
+    margin: 1rem 3rem;
 }
 
 h2 {
     font-family: 'poppins', sans-serif;
     font-size: 4vw;
     margin: 1rem 0;
+
 }
 
 @media screen and (min-width: 1440px) {
     h2 {
-        font-size: 400%;
+        font-size: 64px;
     }
+}
+
+p {
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .contentimg {
     margin-top: 4rem;
+}
+
+#aside p {
+    font-size: 14px;
+    font-weight: 100;
+    margin: 2rem 5rem 2rem 5rem;
+}
+
+/********* footer *********/
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    margin: 2rem 0 0 0;
+    background-color: #121E1E;
 }
