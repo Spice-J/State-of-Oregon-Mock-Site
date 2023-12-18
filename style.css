@@ -1,146 +1,214 @@
-/**********  **********/
+/********** Styles Shared By All HTML Pages **********/
+
 /********** normalize style for different browsers **********/
 
 html {
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-  
+  box-sizing: border-box;
+  font-size: 16px;
+  height: 100%;
+}
 
-  
-  body, h1, h2, h3, h4, h5, h6, p, ol, ul a {
-    margin: 0;
-    padding: 0;
-    font-weight: normal;
-    color: white;
-  }
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul a {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  color: white;
+}
 
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+a {
+  text-decoration: none;
+  color: white;
+}
 
-  * {
-    background-color: #0B2045;
-  }
+img {
+  max-width: 100%;
+  height: auto;
+}
 
-  /********** End Normalize section **********/
+* {
+  background-color: #011C37;
+}
 
-  /********** center webcontent **********/
+/********** center webcontent **********/
 
-  #container {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
+#container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/********** End Normalize Section **********/
+
+/********* Main Styles *********/
 
 /********* header *********/
 
 .headerbox {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
-    position: relative; 
-    display: inline-block;
-}
-
-.header img {
+  position: relative;
+  display: inline-block;
 }
 
 .header h1 {
-    position: absolute;
-    top: 40%;
-    padding-left: 5rem;
-    background-color: transparent;
-    font-family: 'Tangerine', cursive;
-    font-size: 11vw;
+  position: absolute;
+  top: 40%;
+  padding-left: 5rem;
+  background-color: transparent;
+  font-family: "Tangerine", cursive;
+  font-size: 11vw;
 }
 
 /********** max h1 font-sizeat 1440px screen width **********/
 
 @media screen and (min-width: 1440px) {
-    .header h1 {
-        font-size: 900%;
-    }
+  .header h1 {
+    font-size: 900%;
+  }
 }
 
-/********** navbar **********/
+/********** nav section **********/
 
 #navsection {
-    background-color: #0B2045;
+  background-color: #011C37;
 }
 
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1rem 5rem;
-    background-color: #0B2045;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 5rem;
+  background-color: #011C37;
 }
 .nav img {
-    max-height: 5rem;
-    background-color: #0B2045;
+  max-height: 5rem;
+  background-color: #011C37;
 }
 
 .nav a {
-    margin: 2rem;
-    font-size: 1.5rem;
+  margin: 2rem;
+  font-size: 1.5rem;
 }
 
 /********** content **********/
 
 #content {
-    margin: 0 5rem;
+  margin: 0 5rem;
 }
 
 .contentflex {
-    display: flex;
-    gap: 2rem;
-    margin: 1rem 3rem;
+  display: flex;
+  gap: 2rem;
+  margin: 1rem 3rem;
 }
 
 h2 {
-    font-family: 'poppins', sans-serif;
-    font-size: 4vw;
-    margin: 1rem 0;
-
+  font-family: "poppins", sans-serif;
+  font-size: 4vw;
+  margin: 1rem 0;
 }
 
 @media screen and (min-width: 1440px) {
-    h2 {
-        font-size: 64px;
-    }
+  h2 {
+    font-size: 64px;
+  }
 }
 
 p {
-    font-family: 'poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
+  font-family: "poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 .contentimg {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 #aside p {
-    font-size: 14px;
-    font-weight: 100;
-    margin: 2rem 5rem 2rem 5rem;
+  font-size: 14px;
+  font-weight: 100;
+  margin: 2rem 5rem 2rem 5rem;
 }
 
 /********* footer *********/
 
 #footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5rem;
-    margin: 2rem 0 0 0;
-    background-color: #121E1E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin: 2rem 0 0 0;
+  background-color: #121e1e;
 }
+
+/********** City Styles **********/
+
+/********* header section *********/
+
+.cityheaderbox {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cityheader {
+    position: relative;
+    display: inline-block;
+  }
+
+  .imgcrop {
+    max-height: 40vw;
+    overflow: hidden;
+  }
+  
+  .cityheader h1 {
+    position: absolute;
+    top: 83%;
+    padding-left: 5rem;
+    background-color: transparent;
+    font-family: "Tangerine", cursive;
+    font-size: 11vw;
+  }
+
+  @media screen and (min-width: 1440px) {
+    .cityheader h1 {
+      font-size: 900%;
+    }
+  }
+
+  /********* city nav *********/
+
+  .citynav {
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    margin: 1rem 5rem;
+  }
+
+  .citynav a {
+    margin: 2rem;
+    font-size: 1.5rem;
+  }
+
+  /********* photo quadrant **********/
+
+  .photoquadrant {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 5rem;
+    gap: 1rem;
+  }
+
+  .photoquadrant img {
+    max-width: 25%;
+  }
