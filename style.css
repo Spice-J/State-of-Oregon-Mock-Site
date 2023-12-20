@@ -17,11 +17,15 @@ h5,
 h6,
 p,
 ol,
-ul a {
+ul li a {
   margin: 0;
   padding: 0;
   font-weight: normal;
   color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
 }
 
 a {
@@ -36,6 +40,7 @@ img {
 
 * {
   background-color: #011C37;
+  font-family: 'poppins', sans-serif;
 }
 
 /********** center webcontent **********/
@@ -70,7 +75,7 @@ img {
   font-size: 11vw;
 }
 
-/********** max h1 font-sizeat 1440px screen width **********/
+/********** max h1 font-size at 1440px screen width **********/
 
 @media screen and (min-width: 1440px) {
   .header h1 {
@@ -154,6 +159,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 15% 0;
 }
 
 form {
@@ -180,6 +186,7 @@ form input, form textarea {
     background: #f2f2f2;
     font-size: 16px;
     border-radius: 30px;
+    resize: none;
 }
 
 form button {
@@ -280,4 +287,14 @@ form button {
 
   .contenttext {
     padding: 3vh;
+  }
+
+.factsheader {
+    display: flex;
+    justify-content: space-between;
+}
+
+  .factsflex {
+    display: flex;
+    justify-content: space-between;
   }

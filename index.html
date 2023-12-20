@@ -27,7 +27,7 @@
           <img src="images/Seal_of_Oregon.png" alt="Oregon State Seal" />
           <div id="navlinks">
             <a href="index.html">Home</a>
-            <a href="salem.html" target="_blank">Salem</a>
+            <a href="salem.html" target="_blank">&#9734; Salem</a>
             <a href="portland.html" target="_blank">Portland</a>
             <a href="astoria.html" target="_blank">Astoria</a>
           </div>
@@ -78,14 +78,14 @@
         </div>
         <!-- contentflex-->
         <div class="contact">
-          <form>
+          <form id="contactform">
             <h3>Contact Us</h3>
             <input type="text" id="name" placeholder="First Name" required>
             <input type="text" id="name" placeholder="Last Name" required>
             <input type="email" id="email" placeholder="Email Address" required>
-            <input type="email" id="confirm email" placeholder="Confirm Email" required>
-            <textarea id="message" rows="4" placeholder="What can we help with?"></textarea>
-            <button type="submit">Send</button>
+            <input type="email" id="confemail" placeholder="Confirm Email" required>
+            <textarea id="message" rows="4" maxlength="240" placeholder="What can we help with?"></textarea>
+            <button type="submit" onclick="confirmEmail()">Send</button>
           </form>
         </div>
       </div>
@@ -96,5 +96,6 @@
       <!-- footer-->
     </div>
     <!-- container -->
+    <script src="script.js"></script>
   </body>
 </html>
