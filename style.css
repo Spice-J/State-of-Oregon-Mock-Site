@@ -228,12 +228,16 @@ form button {
   background-color: #121e1e;
 }
 
-footer, p {
+footer {
   display: flex;
   background-color: #121e1e;
   gap: .5rem;
   font-family: 'poppins', sans-serif;
   font-size: 15px;
+}
+
+span {
+  background-color: #121e1e;
 }
 
 /********** City Styles **********/
