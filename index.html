@@ -77,21 +77,52 @@
           <!-- imgaside -->
         </div>
         <!-- contentflex-->
+        <div class="table">
+          <h3 class="tabletitle">Check out these cities!</h3>
+          <table>
+            <tr>
+              <th>Salem</th>
+              <th>Portland</th>
+              <th>Astoria</th>
+            </tr>
+            <tr>
+              <td>The Capital</td>
+              <td>Food/Culture</td>
+              <td>History</td>
+            </tr>
+          </table>
+        </div>
+        <!-- table -->
         <div class="contact">
           <form id="contactform">
             <h3>Contact Us</h3>
-            <input type="text" id="name" placeholder="First Name" required>
-            <input type="text" id="name" placeholder="Last Name" required>
-            <input type="email" id="email" placeholder="Email Address" required>
-            <input type="email" id="confemail" placeholder="Confirm Email" required>
-            <textarea id="message" rows="4" maxlength="240" placeholder="What can we help with?"></textarea>
+            <input type="text" id="name" placeholder="First Name" required />
+            <input type="text" id="name" placeholder="Last Name" required />
+            <input
+              type="email"
+              id="email"
+              placeholder="Email Address"
+              required
+            />
+            <input
+              type="email"
+              id="confemail"
+              placeholder="Confirm Email"
+              required
+            />
+            <textarea
+              id="message"
+              rows="4"
+              maxlength="240"
+              placeholder="What can we help with?"
+             ></textarea>
             <button type="submit" onclick="confirmEmail()">Send</button>
           </form>
         </div>
       </div>
       <!-- content -->
       <div id="footer">
-        <footer>Spicescript 2023 ©</footer>
+        <footer>Spicescript <p id="footeryear"></p> ©</footer>
       </div>
       <!-- footer-->
     </div>

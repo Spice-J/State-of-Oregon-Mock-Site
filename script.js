@@ -6,3 +6,5 @@ function confirmEmail() {
        alert('Email Does Not Match!');
     };
 };
+
+   document.getElementById("footeryear").innerHTML = new Date().getFullYear();
