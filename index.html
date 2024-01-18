@@ -23,7 +23,7 @@
           <h1>Oregon</h1>
         </div>
         <!-- header-->
-        <div class="nav">
+        <nav class="nav">
           <img src="images/Seal_of_Oregon.png" alt="Oregon State Seal" />
           <div id="navlinks">
             <a href="index.html">Home</a>
@@ -32,51 +32,57 @@
             <a href="astoria.html" target="_blank">Astoria</a>
           </div>
           <!-- navlinks -->
-        </div>
+        </nav>
         <!-- nav -->
       </div>
       <!-- headerbox -->
       <div id="content">
-        <div class="contentflex">
-          <div class="contenttext">
-            <h2>Welcome to the State of Oregon</h2>
-            <p>
-              Oregon is a beautiful state offering breathtaking views of nautre,
-              spectacular food and endless adventure. Founded on February 14,
-              1859, Oregon is the nations 33rd state with a current population
-              of 4.2 million people. With over 98,000 square miles of territory,
-              Oregon is the ninth largest and 27th most populus state in
-              America.<br />
-              <br />
-              This site is intended to inform curious would be visitors about
-              what we think are three of our best cities and surrounding areas.
-              We hope you enjoy touring the site and hopefully make your way to
-              the state to explore places like Mt. Hood, climb through a log dam
-              near Oneonta Gorge, or even make your own way along the Oregon
-              Trail. Alis volat propriis!
-            </p>
-          </div>
-          <!-- contenttext -->
-          <div class="imgaside">
-            <div class="contentimg">
-              <img src="images/oneontagorge.jpeg" alt="Oneonta River Gorge" />
-            </div>
-            <!-- contentimg -->
-            <div id="aside">
+        <section>
+          <div class="contentflex">
+            <div class="contenttext">
+              <h2>Welcome to the State of Oregon</h2>
               <p>
-                Oneonta Gorge (pictured above) is a stunning place to visit.
-                Located 40 minutes by car east of Portland, it is one of many
-                sites to see along the strip known as the Columbia River Gorge
-                National Scenic Area. This area contains 77 amazing waterfalls
-                along 68 trails for visitors to enjoy. Hiking, backpacking,
-                biking, birdwatching and more. There is so much to see and do.
+                Oregon is a beautiful state offering breathtaking views of
+                nautre, spectacular food and endless adventure. Founded on
+                February 14, 1859, Oregon is the nations 33rd state with a
+                current population of 4.2 million people. With over 98,000
+                square miles of territory, Oregon is the ninth largest and 27th
+                most populus state in America.<br />
+                <br />
+                This site is intended to inform curious would be visitors about
+                what we think are three of our best cities and surrounding
+                areas. We hope you enjoy touring the site and hopefully make
+                your way to the state to explore places like Mt. Hood, climb
+                through a log dam near Oneonta Gorge, or even make your own way
+                along the Oregon Trail. Alis volat propriis!
               </p>
             </div>
-            <!-- aside -->
+            <!-- contenttext -->
+            <div class="imgaside">
+              <div class="contentimg">
+                <img src="images/oneontagorge.jpeg" alt="Oneonta River Gorge" />
+              </div>
+              <!-- contentimg -->
+              <aside>
+                <div id="aside">
+                  <p>
+                    Oneonta Gorge (pictured above) is a stunning place to visit.
+                    Located 40 minutes by car east of Portland, it is one of
+                    many sites to see along the strip known as the Columbia
+                    River Gorge National Scenic Area. This area contains 77
+                    amazing waterfalls along 68 trails for visitors to enjoy.
+                    Hiking, backpacking, biking, birdwatching and more. There is
+                    so much to see and do.
+                  </p>
+                </div>
+                <!-- aside -->
+              </aside>
+            </div>
+            <!-- imgaside -->
           </div>
-          <!-- imgaside -->
-        </div>
-        <!-- contentflex-->
+          <!-- contentflex-->
+        </section>
+        <!-- section -->
         <div class="table">
           <h3 class="tabletitle">Check out these cities!</h3>
           <table>
@@ -89,6 +95,30 @@
               <td>The Capital</td>
               <td>Food/Culture</td>
               <td>History</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://www.oregon.gov/Pages/index.aspx"
+                  >Click here to</a
+                >
+              </td>
+              <td>
+                <a href="https://www.oregon.gov/Pages/index.aspx"
+                  >see the real</a
+                >
+              </td>
+              <td>
+                <a
+                  href="https://www.oregon.gov/Pages/index.aspx"
+                  target="_blank"
+                  >Oregon site!</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>You'll see</td>
+              <td>it's more</td>
+              <td>professional!</td>
             </tr>
           </table>
         </div>
@@ -115,7 +145,7 @@
               rows="4"
               maxlength="240"
               placeholder="What can we help with?"
-             ></textarea>
+            ></textarea>
             <button type="submit" onclick="confirmEmail()">Send</button>
           </form>
         </div>
